@@ -16,6 +16,7 @@ public class FixtureProperties {
 
     private List<Article> articles = new ArrayList<>();
 
-
-
+    public List<Article> getArticles() {
+        return articles;
+    }
 }
